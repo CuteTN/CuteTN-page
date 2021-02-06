@@ -1,0 +1,4 @@
+@font-face {
+    font-family: 'VNComicSans';
+    src: local('VNComicSans'), url(./assets/fonts/VNF-Comic-Sans.ttf) format('truetype');
+  }
