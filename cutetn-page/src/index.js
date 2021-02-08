@@ -2,8 +2,11 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
+import 'bootstrap/dist/css/bootstrap.css'
 
 import './assets/fonts/VNF-Comic-Sans.ttf';
+import './assets/fonts/r0c0i-Linotte-Semi-Bold.ttf'
+import './assets/fonts/r0c0i-Linotte-Heavy.ttf'
 import './index.css'
 
 import { palletes } from  './styles/pallete/allPalletes'

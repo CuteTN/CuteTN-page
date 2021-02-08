@@ -1,12 +1,26 @@
 import logo from './logo.svg';
 import { palletes } from './styles/pallete/allPalletes';
+import CuteHeader from './components/common/CuteHeader';
+import {
+  BrowserRouter as Router,
+  Switch,
+  Route,
+  Link,
+  useHistory
+} from "react-router-dom"
 
 function App() {
   return (
-    <div>
-      <header className="App-header">
-      </header>
-    </div> 
+    <Router>
+      <div 
+        style={{
+          backgroundColor: palletes.colors.pink0,
+          height: '100vh', // set fullscreen div.
+        }}
+      >
+        <CuteHeader/>
+      </div>
+    </Router>
   );
 }
 
