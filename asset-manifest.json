@@ -1,28 +1,28 @@
 {
   "files": {
-    "main.css": "/CuteTN-page/static/css/main.9d9cd1f7.chunk.css",
-    "main.js": "/CuteTN-page/static/js/main.2fa8c887.chunk.js",
-    "main.js.map": "/CuteTN-page/static/js/main.2fa8c887.chunk.js.map",
-    "runtime-main.js": "/CuteTN-page/static/js/runtime-main.0a1e9458.js",
-    "runtime-main.js.map": "/CuteTN-page/static/js/runtime-main.0a1e9458.js.map",
-    "static/css/2.658248ec.chunk.css": "/CuteTN-page/static/css/2.658248ec.chunk.css",
-    "static/js/2.a7593b0e.chunk.js": "/CuteTN-page/static/js/2.a7593b0e.chunk.js",
-    "static/js/2.a7593b0e.chunk.js.map": "/CuteTN-page/static/js/2.a7593b0e.chunk.js.map",
-    "static/js/3.31fd6e90.chunk.js": "/CuteTN-page/static/js/3.31fd6e90.chunk.js",
-    "static/js/3.31fd6e90.chunk.js.map": "/CuteTN-page/static/js/3.31fd6e90.chunk.js.map",
-    "index.html": "/CuteTN-page/index.html",
-    "static/css/2.658248ec.chunk.css.map": "/CuteTN-page/static/css/2.658248ec.chunk.css.map",
-    "static/css/main.9d9cd1f7.chunk.css.map": "/CuteTN-page/static/css/main.9d9cd1f7.chunk.css.map",
-    "static/js/2.a7593b0e.chunk.js.LICENSE.txt": "/CuteTN-page/static/js/2.a7593b0e.chunk.js.LICENSE.txt",
-    "static/media/CuteTNLogo.f7915ba2.png": "/CuteTN-page/static/media/CuteTNLogo.f7915ba2.png",
-    "static/media/index.css": "/CuteTN-page/static/media/r0c0i-Linotte-Semi-Bold.ccea9eb3.ttf",
-    "static/media/logo.6ce24c58.svg": "/CuteTN-page/static/media/logo.6ce24c58.svg"
+    "main.css": "/static/css/main.24d86b3b.chunk.css",
+    "main.js": "/static/js/main.0ee2a9e1.chunk.js",
+    "main.js.map": "/static/js/main.0ee2a9e1.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.ec8bd518.js",
+    "runtime-main.js.map": "/static/js/runtime-main.ec8bd518.js.map",
+    "static/css/2.658248ec.chunk.css": "/static/css/2.658248ec.chunk.css",
+    "static/js/2.a7593b0e.chunk.js": "/static/js/2.a7593b0e.chunk.js",
+    "static/js/2.a7593b0e.chunk.js.map": "/static/js/2.a7593b0e.chunk.js.map",
+    "static/js/3.31fd6e90.chunk.js": "/static/js/3.31fd6e90.chunk.js",
+    "static/js/3.31fd6e90.chunk.js.map": "/static/js/3.31fd6e90.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/2.658248ec.chunk.css.map": "/static/css/2.658248ec.chunk.css.map",
+    "static/css/main.24d86b3b.chunk.css.map": "/static/css/main.24d86b3b.chunk.css.map",
+    "static/js/2.a7593b0e.chunk.js.LICENSE.txt": "/static/js/2.a7593b0e.chunk.js.LICENSE.txt",
+    "static/media/CuteTNLogo.f7915ba2.png": "/static/media/CuteTNLogo.f7915ba2.png",
+    "static/media/index.css": "/static/media/r0c0i-Linotte-Semi-Bold.ccea9eb3.ttf",
+    "static/media/logo.6ce24c58.svg": "/static/media/logo.6ce24c58.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0a1e9458.js",
+    "static/js/runtime-main.ec8bd518.js",
     "static/css/2.658248ec.chunk.css",
     "static/js/2.a7593b0e.chunk.js",
-    "static/css/main.9d9cd1f7.chunk.css",
-    "static/js/main.2fa8c887.chunk.js"
+    "static/css/main.24d86b3b.chunk.css",
+    "static/js/main.0ee2a9e1.chunk.js"
   ]
 }
