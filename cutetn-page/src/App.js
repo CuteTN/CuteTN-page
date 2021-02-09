@@ -2,7 +2,7 @@ import logo from './logo.svg';
 import { palletes } from './styles/pallete/allPalletes';
 import CuteHeader from './components/common/CuteHeader';
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Switch,
   Route,
   Link,
