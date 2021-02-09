@@ -9,9 +9,11 @@ import {
   useHistory
 } from "react-router-dom"
 
+import './App.css'
+
 function App() {
   return (
-    <Router>
+    <Router basename={process.env.PUBLIC_URL}>
       <div 
         style={{
           backgroundColor: palletes.colors.pink0,
@@ -19,6 +21,21 @@ function App() {
         }}
       >
         <CuteHeader/>
+
+        <div key="content">
+          <Switch>
+            <Route exact path='/'>
+              <p>Home!</p>
+            </Route>
+            <Route path='/blogs'>
+              <p>Blogs!</p>
+            </Route>
+            <Route path='/playgrounds'>
+              <p>Playgrounds!</p>
+            </Route>
+          </Switch>
+        </div>
+
       </div>
     </Router>
   );

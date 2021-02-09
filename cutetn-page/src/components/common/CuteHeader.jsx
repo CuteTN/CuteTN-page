@@ -6,7 +6,8 @@ import {
     Switch,
     Route,
     Link,
-    useHistory
+    useHistory,
+    useRouteMatch
 } from "react-router-dom"
 
 import cuteTNLogo from '../../assets/images/CuteTNLogo.png'
@@ -84,16 +85,16 @@ const CuteSearchBar = (props) => {
  
 const CuteHeader = (props) => {
     let history = useHistory();
+    let { url } = useRouteMatch();
+    console.log(url);
 
-    function handleHomeButtonClicked() {
-      history.push("/home");
+    let routeToHandler = (url) => {
+        return () => history.push(url);
     }
-    function handleBlogsButtonClicked() {
-      history.push("/blogs");
-    }
-    function handlePlaygroundsButtonClicked() {
-      history.push("/playgrounds");
-    }
+
+    let handleHomeButtonClicked = routeToHandler(`/`);
+    let handleBlogsButtonClicked = routeToHandler(`/blogs`);
+    let handlePlaygroundsButtonClicked = routeToHandler(`/playgrounds`);
 
     let getStyle = (field) => {
         let style = cuteHeaderStyle;
