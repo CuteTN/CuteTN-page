@@ -11,30 +11,11 @@ import { CuteHeaderLogo } from './CuteHeaderLogo';
 import { CuteHeaderTitle } from './CuteHeaderTitle';
 import { CuteHeaderButton } from './CuteHeaderButton';
 import { CuteHeaderSearchBar } from './CuteHeaderSearchBar';
+import { CuteHeaderNavButtons } from './CuteHeaderNavButtons';
+import { createStyleGetter } from '../../utils/getStyle';
 
 const CuteHeader = (props) => {
-    let history = useHistory();
-    let { url } = useRouteMatch();
-    console.log(url);
-
-    let routeToHandler = (url) => {
-        return () => history.push(url);
-    }
-
-    let handleHomeButtonClicked = routeToHandler(`/`);
-    let handleBlogsButtonClicked = routeToHandler(`/blogs`);
-    let handlePlaygroundsButtonClicked = routeToHandler(`/playgrounds`);
-
-    let getStyle = (field) => {
-        let style = cuteHeaderStyle;
-        if(props.style)
-            style = props.style;
-
-        if(field)
-            return style[field];
-        else
-            return style;
-    }
+    let getStyle = createStyleGetter(props, cuteHeaderStyle);
 
     return (
         <div>
@@ -54,20 +35,9 @@ const CuteHeader = (props) => {
                         <CuteHeaderTitle/>
                     </div>
                 </div>
-
                     
                 <div className="d-flex align-items-stretch">
-                    <ul className="navbar-nav mr-auto d-flex align-items-stretch">
-                        <li className="nav-item active">
-                            <CuteHeaderButton onClick={handleHomeButtonClicked}>Home</CuteHeaderButton>
-                        </li>
-                        <li className="nav-item">
-                            <CuteHeaderButton onClick={handleBlogsButtonClicked}>Blogs</CuteHeaderButton>
-                        </li>
-                        <li className="nav-item">
-                            <CuteHeaderButton onClick={handlePlaygroundsButtonClicked}>Playgrounds</CuteHeaderButton>
-                        </li>
-                    </ul>
+                    <CuteHeaderNavButtons />
                 </div>
 
                 <div className="d-flex align-items-stretch">

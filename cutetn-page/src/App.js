@@ -1,6 +1,7 @@
 import logo from './logo.svg';
 import { palletes } from './styles/pallete/allPalletes';
 import CuteHeader from './components/common/CuteHeader';
+import CuteFooter from './components/common/CuteFooter';
 import {
   HashRouter as Router,
   Switch,
@@ -35,6 +36,8 @@ function App() {
             </Route>
           </Switch>
         </div>
+
+        <CuteFooter/>
 
       </div>
     </Router>

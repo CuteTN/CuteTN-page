@@ -1,4 +1,4 @@
-import cuteTNLogo from '../../assets/images/CuteTNLogo.png'
+import cuteTNLogo from '../../assets/images/CuteTN/CuteTNLogo.png'
 
 export const CuteHeaderLogo = (props) => {
     return (  
